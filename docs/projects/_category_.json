@@ -1,0 +1,8 @@
+{
+    "label": "Projects",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "Fediverse project details about how they Federate."
+    }
+}
