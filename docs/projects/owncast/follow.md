@@ -17,7 +17,6 @@ Owncast accepts inbound Follow requests from other ActivityPub Actors. When a Fo
 | Object    | An ActivityPub Actor (IRI or inline)                               |
 | ID        | A unique Follow request IRI                                        |
 
-
 ### Example expected inbound Follow request
 
 ```json
