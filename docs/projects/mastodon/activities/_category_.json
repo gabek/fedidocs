@@ -1,0 +1,8 @@
+{
+    "label": "Activities",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "Supported Activities"
+    }
+}
