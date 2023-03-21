@@ -16,11 +16,11 @@ Mastodon's `Follow` activity ids aren't fetchable via HTTP with `Accept: applica
 
 ## Request
 
-| Reference              |                                                                                   |
-| ---------------------- | --------------------------------------------------------------------------------- |
-| Activity               | [Follow](https://www.w3.org/TR/activitypub/#follow-activity-inbox)                |
-| Object                 | An ActivityPub Actor (IRI or inline)                                                                              |
-| ID        | A unique Follow request IRI                                        |
+| Reference              |                                                                                                            |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Activity               | [Follow](https://www.w3.org/TR/activitypub/#follow-activity-inbox)                                         |
+| Object                 | An ActivityPub Actor (IRI or inline)                                                                       |
+| ID                     | A unique Follow request IRI                                                                                |
 | Official documentation | [docs.joinmastodon.org](https://docs.joinmastodon.org/spec/activitypub/#supported-activities-for-profiles) |
 
 ### Example Follow request
@@ -35,17 +35,16 @@ Mastodon's `Follow` activity ids aren't fetchable via HTTP with `Accept: applica
 }
 ```
 
-
 ## Accept
 
 The `Accept` activity is used to accept another activity that was previously received, usually a `Follow`.
 
 Mastodon's `Accept` activity ids are based on their actor's ids, distinguished with a `#` fragment, which makes them not fetchable via HTTP with `Accept: application/activity+json` content negotiation. Attempting to fetch them returns the actor's AS2 object instead. [Background in this GitHub issue.](https://github.com/mastodon/mastodon/issues/13879)
 
-| Reference              |                                                                                   |
-| ---------------------- | --------------------------------------------------------------------------------- |
-| Activity               | [Accept](https://www.w3.org/TR/activitypub/#accept-activity-inbox)                |
-| Object                 | [Follow](https://www.w3.org/TR/activitypub/#follow-activity-inbox)                                                                              |
+| Reference              |                                                                                                            |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Activity               | [Accept](https://www.w3.org/TR/activitypub/#accept-activity-inbox)                                         |
+| Object                 | [Follow](https://www.w3.org/TR/activitypub/#follow-activity-inbox)                                         |
 | Official documentation | [docs.joinmastodon.org](https://docs.joinmastodon.org/spec/activitypub/#supported-activities-for-profiles) |
 
 ### Example Accept request
