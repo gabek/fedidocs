@@ -2,7 +2,7 @@
 id: follow
 title: Follow
 sidebar_label: Follow
-sidebar_position: 1
+sidebar_position: 2
 tags:
   - follow
 ---
@@ -19,7 +19,7 @@ A `Follow` enables actors to access and retrieve content from other actors as so
 
 ## Internal logic
 
-When Funkwhale receives a follow on a [library object](objects/library), it performs one of the following actions depending on the library's visibility:
+When Funkwhale receives a follow on a [library object](../objects/library), it performs one of the following actions depending on the library's visibility:
 
 - Automatically accept: If the library is public, Funkwhale automatically accepts the follow activity. Funkwhale sends a notification to the owner of the library and an [`Accept`](accept) activity to the actor who sent the follow
 - Accept request: If the library isn't public, Funkwhale sends a notification to the library owner. If the owner approves the request, Funkwhale sends an [`Accept`](accept) activity to the actor who sent the follow
@@ -28,7 +28,7 @@ Funkwhale uses the library follow status to grant access to the actor who sent t
 
 #### Example
 
-In this example, **Alice** sends a follow activity for a [library object](objects/library) owned by **Bob**.
+In this example, **Alice** sends a follow activity for a [library object](../objects/library) owned by **Bob**.
 
 ``` json
 {

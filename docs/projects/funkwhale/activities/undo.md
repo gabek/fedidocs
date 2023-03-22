@@ -2,7 +2,7 @@
 id: undo
 title: Undo
 sidebar_label: Undo
-sidebar_position: 3
+sidebar_position: 4
 tags:
   - undo
 ---
@@ -16,7 +16,7 @@ The `Undo` activity reverses a referenced [`Follow`](follow.md) activity.
 
 ## Internal logic
 
-When Funkwhale receives an `Undo` activity, it deletes the corresponding `Follow` from the database.
+When Funkwhale receives an `Undo` activity, it deletes the corresponding [`Follow`](follow.md) from the database.
 
 ## Example
 

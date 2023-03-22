@@ -2,7 +2,7 @@
 id: accept
 title: Accept
 sidebar_label: Accept
-sidebar_position: 2
+sidebar_position: 3
 tags:
   - accept
 ---
@@ -17,7 +17,7 @@ The `Accept` activity sends a positive response, such as confirming a [`Follow` 
 
 ## Internal logic
 
-When Funkwhale receives an `Accept` activity related to a [`Follow`](follow) activity, it marks the `Follow` as accepted in the database. If the `Follow` activity relates to a [`Library` object](objects/library), the requester receives future activities associated with the library. This includes [`Create`](create), [`Audio`](objects/audio), and [`Delete`](delete) activities. They can also browse and download the library's audio files.
+When Funkwhale receives an `Accept` activity related to a [`Follow`](follow) activity, it marks the `Follow` as accepted in the database. If the `Follow` activity relates to a [`Library` object](../objects/library), the requester receives future activities associated with the library. This includes [`Create`](create) and [`Delete`](delete) activities as well as  [`Audio` objects](../objects/audio). They can also browse and download the library's audio files.
 
 ## Example
 

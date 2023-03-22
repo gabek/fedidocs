@@ -1,7 +1,7 @@
 ---
 id: webfinger
 title: Webfinger
-sidebar_position: 10
+sidebar_position: 3
 tags:
   - Webfinger
 ---
