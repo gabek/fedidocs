@@ -22,14 +22,20 @@ Funkwhale doesn't currently support following actors from other services.
 * Funkwhale users can search for other Fediverse accounts and render basic information about them.
 * Funkwhale channels are compatible with Reel2Bits.
 
-## What Objects does Funkwhale federate?
+## Supported activities
 
-### Outbound
+- [`Create`](activities/create)
+- [`Accept`](activities/accept)
+- [`Follow`](activities/follow)
+- [`Accept`](activities/accept)
+- [`Undo`](activities/undo)
+- [`Update`](activities/update)
+- [`Delete`](activities/delete)
 
-- [Notes](create/note) with attachments.
+## Custom objects
 
-### Inbound
-
-- [Likes](like)
-- [Follows](activities/follow)
-- [Shares](announce)
+- [`Artist`](objects/artist)
+- [`Album`](objects/album)
+- [`Track`](objects/track)
+- [`Library`](objects/library)
+- [`Audio`](objects/audio)

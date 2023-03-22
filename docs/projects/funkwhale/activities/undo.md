@@ -7,7 +7,7 @@ tags:
   - undo
 ---
 
-The `Undo` activity reverses a referenced [`Follow`](follow.md) activity.
+The `Undo` activity reverses a referenced [`Follow`](follow) activity.
 
 | Reference |                                                                    |
 | --------- | ------------------------------------------------------------------ |
@@ -16,7 +16,7 @@ The `Undo` activity reverses a referenced [`Follow`](follow.md) activity.
 
 ## Internal logic
 
-When Funkwhale receives an `Undo` activity, it deletes the corresponding [`Follow`](follow.md) from the database.
+When Funkwhale receives an `Undo` activity, it deletes the corresponding [`Follow`](follow) from the database.
 
 ## Example
 
