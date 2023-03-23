@@ -13,11 +13,11 @@ A `Track` is a custom object used to store track information.
 
 | Property         | Data type                           | Description                                                                      |
 | ---------------- | ----------------------------------- | -------------------------------------------------------------------------------- | ------------------------- |
-| `type`*         | String                              |                                                                                  | The object type (`Track`) |
-| `id`*           | String (URI)                        | A URI that identifies the track over federation                                  |
-| `name`*         | String                              | The track title                                                                  |
-| `position`*     | Integer                             | The position of the track in the album                                           |
-| `published`*    | Datetime                            | The date on which the track was published over the federation                    |
+| `type`\*         | String                              |                                                                                  | The object type (`Track`) |
+| `id`\*           | String (URI)                        | A URI that identifies the track over federation                                  |
+| `name`\*         | String                              | The track title                                                                  |
+| `position`\*     | Integer                             | The position of the track in the album                                           |
+| `published`\*    | Datetime                            | The date on which the track was published over the federation                    |
 | `musicbrainzId`? | String (UUID)                       | The MusicBrainz recording ID                                                     |
 | `album`?         | [`Album` object](album)             | The album that contains the track                                                |
 | `artists`?       | Array of [`Artist` objects](artist) | A list of artists associated to the track. This can differ from the album artist |

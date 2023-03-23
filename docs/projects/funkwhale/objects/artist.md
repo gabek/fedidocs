@@ -13,10 +13,10 @@ An `Artist` is a custom object used to store musical artist and podcast creator 
 
 | Property         | Data type     | Description                                                    |
 | ---------------- | ------------- | -------------------------------------------------------------- |
-| `type`*         | String        | The object type (`Artist`)                                     |
-| `id`*           | String (URI)  | The URI that identifies the artist over federation             |
-| `name`*         | String        | The artist's name                                              |
-| `published`*    | Datetime      | The date on which the artist was published over the federation |
+| `type`\*         | String        | The object type (`Artist`)                                     |
+| `id`\*           | String (URI)  | The URI that identifies the artist over federation             |
+| `name`\*         | String        | The artist's name                                              |
+| `published`\*    | Datetime      | The date on which the artist was published over the federation |
 | `musicbrainzId`? | String (UUID) | The MusicBrainz ID associated with the artist                  |
 
 ## Example

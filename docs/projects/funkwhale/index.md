@@ -18,9 +18,9 @@ Funkwhale is a free, federated audio platform for listening to and publishing mu
 Funkwhale doesn't currently support following actors from other services.
 :::
 
-* Users of microblogging platforms such as Mastodon and Pleroma can follow Funkwhale channels to see published work in their feed.
-* Funkwhale users can search for other Fediverse accounts and render basic information about them.
-* Funkwhale channels are compatible with Reel2Bits.
+- Users of microblogging platforms such as Mastodon and Pleroma can follow Funkwhale channels to see published work in their feed.
+- Funkwhale users can search for other Fediverse accounts and render basic information about them.
+- Funkwhale channels are compatible with Reel2Bits.
 
 ## Supported activities
 

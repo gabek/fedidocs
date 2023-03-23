@@ -14,7 +14,7 @@ A `Follow` enables actors to access and retrieve content from other actors as so
 | Reference |                                                                    |
 | --------- | ------------------------------------------------------------------ |
 | Activity  | [Follow](https://www.w3.org/TR/activitypub/#follow-activity-inbox) |
-| Object    | A Funkwhale Library or ActivityPub actor                               |
+| Object    | A Funkwhale Library or ActivityPub actor                           |
 | ID        | A unique Follow request IRI                                        |
 
 ## Internal logic
@@ -30,12 +30,12 @@ Funkwhale uses the library follow status to grant access to the actor who sent t
 
 In this example, **Alice** sends a follow activity for a [library object](../objects/library) owned by **Bob**.
 
-``` json
+```json
 {
   "@context": [
-      "https://www.w3.org/ns/activitystreams",
-      "https://w3id.org/security/v1",
-      {}
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {}
   ],
   "type": "Follow",
   "id": "https://music.rocks/federation/actors/Alice#follows/99fc40d7-9bc8-4c4a-add1-f637339e1ded",

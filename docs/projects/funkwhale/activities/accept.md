@@ -17,7 +17,7 @@ The `Accept` activity sends a positive response, such as confirming a [`Follow` 
 
 ## Internal logic
 
-When Funkwhale receives an `Accept` activity related to a [`Follow`](follow) activity, it marks the `Follow` as accepted in the database. If the `Follow` activity relates to a [`Library` object](../objects/library), the requester receives future activities associated with the library. This includes [`Create`](create) and [`Delete`](delete) activities as well as  [`Audio` objects](../objects/audio). They can also browse and download the library's audio files.
+When Funkwhale receives an `Accept` activity related to a [`Follow`](follow) activity, it marks the `Follow` as accepted in the database. If the `Follow` activity relates to a [`Library` object](../objects/library), the requester receives future activities associated with the library. This includes [`Create`](create) and [`Delete`](delete) activities as well as [`Audio` objects](../objects/audio). They can also browse and download the library's audio files.
 
 ## Example
 

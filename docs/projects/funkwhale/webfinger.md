@@ -20,16 +20,14 @@ GET https://open.audio/.well-known/webfinger?resource=acct:test_channel%40open.a
 
 ```json
 {
-   "subject": "acct:test_channel@open.audio",
-   "links": [
-      {
-         "rel": "self",
-         "href": "https://open.audio/federation/actors/test_channel",
-         "type": "application/activity+json"
-      }
-   ],
-   "aliases": [
-      "https://open.audio/federation/actors/test_channel"
-   ]
+  "subject": "acct:test_channel@open.audio",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://open.audio/federation/actors/test_channel",
+      "type": "application/activity+json"
+    }
+  ],
+  "aliases": ["https://open.audio/federation/actors/test_channel"]
 }
 ```

@@ -9,10 +9,10 @@ tags:
 
 The `Update` activity alters information relating to Funkwhale objects and creates a record of the change.
 
-| Reference |                                                                    |
-| --------- | ------------------------------------------------------------------ |
+| Reference |                                                                  |
+| --------- | ---------------------------------------------------------------- |
 | Activity  | [Undo](https://www.w3.org/TR/activitypub/#update-activity-inbox) |
-| Object    | A Funkwhale `Library` or `Track` object                              |
+| Object    | A Funkwhale `Library` or `Track` object                          |
 
 ## Internal logic
 

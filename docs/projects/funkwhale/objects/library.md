@@ -13,13 +13,13 @@ A `Library` is a custom object used to store music collection information. It in
 
 | Property       | Data type    | Description                                           |
 | -------------- | ------------ | ----------------------------------------------------- |
-| `type`*       | String       | The object type (`Library`)                           |
-| `id`*         | String (URI) | A URI that identifies the library over federation     |
-| `name`*       | String       | The library's name                                    |
-| `followers`*  | String (URI) | The ID of the library's followers collection          |
-| `totalItems`* | Integer      | The number of [`Audio` objects](audio) in the library |
-| `first`*      | String (URI) | The URL of the library's first page                   |
-| `last`*       | String (URI) | The URL of the library's last page                    |
+| `type`\*       | String       | The object type (`Library`)                           |
+| `id`\*         | String (URI) | A URI that identifies the library over federation     |
+| `name`\*       | String       | The library's name                                    |
+| `followers`\*  | String (URI) | The ID of the library's followers collection          |
+| `totalItems`\* | Integer      | The number of [`Audio` objects](audio) in the library |
+| `first`\*      | String (URI) | The URL of the library's first page                   |
+| `last`\*       | String (URI) | The URL of the library's last page                    |
 | `summary`?     | String       | The library's description                             |
 
 ## Example

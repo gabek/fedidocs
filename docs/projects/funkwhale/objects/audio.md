@@ -13,16 +13,16 @@ An `Audio` object is a custom object used to store upload information. It extend
 
 | Property      | Data type                                                                   | Description                                                                                         |
 | ------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `type`*      | String                                                                      | The object type (`Audio`)                                                                           |
-| `id`*        | String (URI)                                                                | A URI that identifies the audio over federation                                                     |
-| `name`*      | String                                                                      | A readable title for the order. Funkwhale concatenates the track name, album title, and artist name |
-| `size`*      | Integer                                                                     | The size of the audio in bytes                                                                      |
-| `bitrate`*   | Integer                                                                     | The bitrate of the audio in bytes/s                                                                 |
-| `duration`*  | Integer                                                                     | The duration of the audio in seconds                                                                |
-| `library`*   | String (URI)                                                                | The ID of the audio's containing [`Library` object](library)                                        |
-| `published`* | Datetime                                                                    | The date on which the audio was published over the federation                                       |
-| `updated`*   | Datetime                                                                    | The date on which the audio was last updated over the federation                                    |
-| `url`*       | [`Link` object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-link) | A `Link` object object containing the download location of the audio file                           |
+| `type`\*      | String                                                                      | The object type (`Audio`)                                                                           |
+| `id`\*        | String (URI)                                                                | A URI that identifies the audio over federation                                                     |
+| `name`\*      | String                                                                      | A readable title for the order. Funkwhale concatenates the track name, album title, and artist name |
+| `size`\*      | Integer                                                                     | The size of the audio in bytes                                                                      |
+| `bitrate`\*   | Integer                                                                     | The bitrate of the audio in bytes/s                                                                 |
+| `duration`\*  | Integer                                                                     | The duration of the audio in seconds                                                                |
+| `library`\*   | String (URI)                                                                | The ID of the audio's containing [`Library` object](library)                                        |
+| `published`\* | Datetime                                                                    | The date on which the audio was published over the federation                                       |
+| `updated`\*   | Datetime                                                                    | The date on which the audio was last updated over the federation                                    |
+| `url`\*       | [`Link` object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-link) | A `Link` object object containing the download location of the audio file                           |
 | `track`?      | [`Track` object](track)                                                     | The track associated with the audio file                                                            |
 
 ## Example

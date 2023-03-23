@@ -11,16 +11,16 @@ An `Album` is a custom object used to store album and podcast series information
 
 ## Properties
 
-| Property         | Data type                                                                   | Description                                                      |
-| ---------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| `type`*         | String                                                                      | The object type (`Album`)                                        |
-| `id`*           | String (URI)                                                                | A URI that identifies the album over federation                  |
-| `name`*         | String                                                                      | The album's title                                                |
+| Property         | Data type                                                                   | Description                                                     |
+| ---------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| `type`\*         | String                                                                      | The object type (`Album`)                                       |
+| `id`\*           | String (URI)                                                                | A URI that identifies the album over federation                 |
+| `name`\*         | String                                                                      | The album's title                                               |
 | `artists`?       | Array of strings                                                            | A list of [`Artist` objects](artist) associated with the albums |
-| `published`*    | Datetime                                                                    | The date on which the artist was published over the federation   |
-| `released`?      | Datetime                                                                    | The date on which the album was released                         |
-| `musicbrainzId`? | String (UUID)                                                               | The MusicBrainz release ID                                       |
-| `cover`?         | [`Link` object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-link) | A `Link` object representing the album cover                     |
+| `published`\*    | Datetime                                                                    | The date on which the artist was published over the federation  |
+| `released`?      | Datetime                                                                    | The date on which the album was released                        |
+| `musicbrainzId`? | String (UUID)                                                               | The MusicBrainz release ID                                      |
+| `cover`?         | [`Link` object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-link) | A `Link` object representing the album cover                    |
 
 ## Example
 
