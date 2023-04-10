@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Fedi Docs",
-  tagline: "Documenting The Fediverse",
+  title: "Fedi Devs",
+  tagline: "Developing The Fediverse",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -38,10 +38,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
+
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.dev/gabek/fedidocs/tree/main/",
+          // editUrl: "https://github.dev/gabek/fedidocs/tree/main/",
         },
 
         theme: {
@@ -57,7 +59,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Fedi Docs",
+        title: "Fedi Devs",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -69,7 +71,7 @@ const config = {
             label: "About",
           },
           {
-            to: "/docs/category/projects",
+            to: "/category/projects",
             label: "Projects",
             position: "left",
           },
@@ -91,12 +93,16 @@ const config = {
                 href: "https://activitypub.rocks",
               },
               {
-                label: "W3C Spec",
+                label: "W3C ActivityPub Spec",
                 href: "https://www.w3.org/TR/activitypub",
               },
               {
                 label: "Guide for new ActivityPub implementers",
                 href: "https://socialhub.activitypub.rocks/pub/guide-for-new-activitypub-implementers",
+              },
+              {
+                label: "WebFinger",
+                href: "https://webfinger.net/",
               },
             ],
           },

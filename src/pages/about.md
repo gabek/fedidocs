@@ -1,5 +1,5 @@
 ---
-title: About Fedi Docs
+title: About Fedi Devs
 id: about
 slug: /about
 sidebar_position: 1
