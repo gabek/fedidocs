@@ -66,18 +66,13 @@ const config = {
         },
         items: [
           {
-            to: "/about",
+            to: "/",
             position: "left",
             label: "About",
           },
           {
             to: "/category/projects",
             label: "Projects",
-            position: "left",
-          },
-          {
-            to: "/category/notes",
-            label: "Notes",
             position: "left",
           },
           {
