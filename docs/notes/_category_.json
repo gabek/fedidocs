@@ -1,0 +1,8 @@
+{
+    "label": "Notes",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "Notes from meetings, calls or other events."
+    }
+}

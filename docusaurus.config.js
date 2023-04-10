@@ -76,6 +76,11 @@ const config = {
             position: "left",
           },
           {
+            to: "/category/notes",
+            label: "Notes",
+            position: "left",
+          },
+          {
             href: "https://github.com/gabek/fedidocs",
             label: "Update these docs",
             position: "right",
