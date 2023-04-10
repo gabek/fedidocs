@@ -6,6 +6,8 @@ slug: /
 
 # Fediverse Developer Network
 
+<img src="/img/fedidevs-concept.svg"/>
+
 ## What is it?
 
 - Build a community around those building for the Fediverse.
