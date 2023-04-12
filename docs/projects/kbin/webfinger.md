@@ -21,9 +21,7 @@ GET https://eee@dev.karab.in/.well-known/webfinger?resource=acct%3Aeee%40dev.kar
 ```json
 {
   "subject": "acct:eee@dev.karab.in",
-  "aliases": [
-    "https://dev.karab.in/u/eee"
-  ],
+  "aliases": ["https://dev.karab.in/u/eee"],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",

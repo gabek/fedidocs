@@ -10,7 +10,7 @@ tags:
 The `Delete` activity removes an existing [`Note`](../objects/note) or [`Page`](../objects/page) objects.
 
 | Reference |                                                                    |
-|-----------|--------------------------------------------------------------------|
+| --------- | ------------------------------------------------------------------ |
 | Activity  | [Delete](https://www.w3.org/TR/activitypub/#delete-activity-inbox) |
 | Object    | `Note` or `Page`                                                   |
 
@@ -32,8 +32,6 @@ In this example, **bob** remove content and sends a message to its followers.
     "https://lab.kbin.pub/m/rust",
     "https://www.w3.org/ns/activitystreams#Public"
   ],
-  "cc": [
-    "https://lab.kbin.pub/u/bob/followers"
-  ]
+  "cc": ["https://lab.kbin.pub/u/bob/followers"]
 }
 ```

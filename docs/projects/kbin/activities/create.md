@@ -10,7 +10,7 @@ tags:
 The `Create` activity is used to create new [`Note`](../objects/note) or [`Page`](../objects/page) objects.
 
 | Reference |                                                                    |
-|-----------|--------------------------------------------------------------------|
+| --------- | ------------------------------------------------------------------ |
 | Activity  | [Create](https://www.w3.org/TR/activitypub/#create-activity-inbox) |
 | Object    | `Note` or `Page`                                                   |
 
@@ -37,9 +37,7 @@ In this example, **bob** creates new content in **rust** magazine and sends a me
     "https://lab.kbin.pub/m/rust",
     "https://www.w3.org/ns/activitystreams#Public"
   ],
-  "cc": [
-    "https://lab.kbin.pub/u/bob/followers"
-  ],
+  "cc": ["https://lab.kbin.pub/u/bob/followers"],
   "object": {}
 }
 ```

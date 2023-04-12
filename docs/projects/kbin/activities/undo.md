@@ -11,7 +11,7 @@ When Kbin receives an Undo activity, it deletes the corresponding object from th
 with [`Follow`](./follow) or [`Like`](./like) objects.
 
 | Reference |                                                                |
-|-----------|----------------------------------------------------------------|
+| --------- | -------------------------------------------------------------- |
 | Activity  | [Undo](https://www.w3.org/TR/activitypub/#undo-activity-inbox) |
 | Object    | `Follow` or `Like`                                             |
 

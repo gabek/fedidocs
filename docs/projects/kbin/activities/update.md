@@ -10,7 +10,7 @@ tags:
 The `Update` activity is used to edit existing [`Note`](../objects/note) or [`Page`](../objects/page) objects.
 
 | Reference |                                                                    |
-|-----------|--------------------------------------------------------------------|
+| --------- | ------------------------------------------------------------------ |
 | Activity  | [Update](https://www.w3.org/TR/activitypub/#update-activity-inbox) |
 | Object    | `Note` or `Page`                                                   |
 
@@ -37,9 +37,7 @@ In this example, **bob** edit content and sends a message to its followers.
     "https://lab.kbin.pub/m/rust",
     "https://www.w3.org/ns/activitystreams#Public"
   ],
-  "cc": [
-    "https://lab.kbin.pub/u/bob/followers"
-  ],
+  "cc": ["https://lab.kbin.pub/u/bob/followers"],
   "object": {}
 }
 ```

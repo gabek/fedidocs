@@ -21,9 +21,7 @@ tags:
       "https://dev.karab.in/u/eee",
       "https://101010.pl/users/ernest"
     ],
-    "cc": [
-      "https://lab.kbin.pub/u/ernest/followers"
-    ],
+    "cc": ["https://lab.kbin.pub/u/ernest/followers"],
     "sensitive": false,
     "content": "<p>Mentions example <a href=\"https://dev.karab.in/u/eee\" class=\"mention u-url\" title=\"@eee@dev.karab.in\" data-action=\"mouseover-&gt;kbin#mention\" data-kbin-username-param=\"eee@dev.karab.in\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">@eee</a> <a href=\"https://101010.pl/@ernest\" class=\"mention u-url\" title=\"@ernest@101010.pl\" data-action=\"mouseover-&gt;kbin#mention\" data-kbin-username-param=\"ernest@101010.pl\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">@ernest</a></p>\n",
     "mediaType": "text/html",

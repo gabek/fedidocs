@@ -11,7 +11,7 @@ The `Announce` activity is effectively what is known as "sharing", "reposting", 
 Activity is used with [`Note`](../objects/note) or [`Page`](../objects/page) objects.
 
 | Reference |                                                                        |
-|-----------|------------------------------------------------------------------------|
+| --------- | ---------------------------------------------------------------------- |
 | Activity  | [Announce](https://www.w3.org/TR/activitypub/#announce-activity-inbox) |
 | Object    | `Note` or `Page`                                                       |
 
