@@ -12,11 +12,16 @@ The `Page` is an object used for add more relevant links and articles displayed 
 ## Properties
 
 | Property | Data type | Description |
-| -------- | --------- | ----------- |
+|----------|-----------|-------------|
 | `type`\* | String    | Page        |
 
 ## Example
 
+```bash
+curl -H "Accept: application/activity+json, application/ld+json" https://dev.karab.in/m/fediverse/t/2917
+```
+
+```
 ```json
 {
   "@context": [
@@ -36,7 +41,9 @@ The `Page` is an object used for add more relevant links and articles displayed 
     "https://lab.kbin.pub/m/fediverse",
     "https://www.w3.org/ns/activitystreams#Public"
   ],
-  "cc": ["https://lab.kbin.pub/u/eee/followers"],
+  "cc": [
+    "https://lab.kbin.pub/u/eee/followers"
+  ],
   "name": "Fediverse Developer Network",
   "content": "<p>A community for developers building the existing projects that make up the Fediverse.</p>\n",
   "summary": "A community for developers building the existing projects that make up the Fediverse. #fediverse",

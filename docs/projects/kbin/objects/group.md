@@ -5,6 +5,7 @@ sidebar_label: Group
 sidebar_position: 4
 tags:
   - group
+  - actor
 ---
 
 The `Group` is an object that represents an individual magazine / community.
@@ -12,10 +13,14 @@ The `Group` is an object that represents an individual magazine / community.
 ## Properties
 
 | Property | Data type | Description |
-| -------- | --------- | ----------- |
+|----------|-----------|-------------|
 | `type`\* | String    | Group       |
 
 ## Example
+
+```bash
+curl -H "Accept: application/activity+json, application/ld+json" https://dev.karab.in/m/fediverse
+```
 
 ```json
 {

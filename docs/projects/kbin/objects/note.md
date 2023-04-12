@@ -12,13 +12,16 @@ The `Note` is an object used to create comments, and posts in the microblog sect
 ## Properties
 
 | Property | Data type | Description |
-| -------- | --------- | ----------- |
+|----------|-----------|-------------|
 | `type`\* | String    | Note        |
 
 ## Example
 
-Post:
+```bash
+curl -H "Accept: application/activity+json, application/ld+json" https://dev.karab.in/m/fediverse/t/2917/Fediverse-Developer-Network/comment/3567
+```
 
+Post:
 ```json
 {
   "@context": [
@@ -38,7 +41,9 @@ Post:
     "https://lab.kbin.pub/m/random",
     "https://www.w3.org/ns/activitystreams#Public"
   ],
-  "cc": ["https://lab.kbin.pub/u/eee/followers"],
+  "cc": [
+    "https://lab.kbin.pub/u/eee/followers"
+  ],
   "sensitive": false,
   "content": "<p>Hello word</p>\n",
   "mediaType": "text/html",
@@ -50,7 +55,6 @@ Post:
 ```
 
 Comment:
-
 ```json
 {
   "type": "Note",
