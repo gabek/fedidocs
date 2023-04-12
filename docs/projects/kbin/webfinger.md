@@ -1,7 +1,7 @@
 ---
 id: webfinger
 title: Webfinger
-sidebar_position: 5
+sidebar_position: 6
 tags:
   - Webfinger
 ---
@@ -13,15 +13,18 @@ Kbin supports the [Webfinger](https://tools.ietf.org/html/rfc7033) protocol for 
 The following request queries for `eee@dev.karab.in`.
 
 ```
-GET https://eee@dev.karab.in/.well-known/webfinger?resource=acct%3Aeee%40dev.karab.in
+GET https://dev.karab.in/.well-known/webfinger?resource=acct:eee@dev.karab.in
 ```
 
 ## Example response:
 
+### Person
 ```json
 {
   "subject": "acct:eee@dev.karab.in",
-  "aliases": ["https://dev.karab.in/u/eee"],
+  "aliases": [
+    "https://dev.karab.in/u/eee"
+  ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
@@ -32,6 +35,28 @@ GET https://eee@dev.karab.in/.well-known/webfinger?resource=acct%3Aeee%40dev.kar
       "rel": "self",
       "href": "https://dev.karab.in/u/eee",
       "type": "application/activity+json"
+    }
+  ]
+}
+```
+
+### Group
+```json
+{
+  "subject": "acct:fediverse@dev.karab.in",
+  "aliases": [
+    "https://dev.karab.in/m/fediverse"
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dev.karab.in/m/fediverse",
+      "type": "application/activity+json"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://dev.karab.in/m/fediverse",
+      "type": "text/html"
     }
   ]
 }

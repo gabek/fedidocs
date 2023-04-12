@@ -13,7 +13,6 @@ The `Accept` activity sends a positive response, such as confirming a [`Follow` 
 | --------- | ------------------------------------------------------------------ |
 | Activity  | [Accept](https://www.w3.org/TR/activitypub/#accept-activity-inbox) |
 | Object    | An ActivityPub Actor (IRI or inline)                               |
-| ID        | The initial Follow activity request ID                             |
 
 ## Example
 

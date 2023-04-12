@@ -11,7 +11,7 @@ The `Like` activity is effectively what is known as "like", "favourite". Activit
 or [`Page`](../objects/page) objects.
 
 | Reference |                                                                |
-| --------- | -------------------------------------------------------------- |
+|-----------|----------------------------------------------------------------|
 | Activity  | [Like](https://www.w3.org/TR/activitypub/#like-activity-inbox) |
 | Object    | `Note` or `Page`                                               |
 
