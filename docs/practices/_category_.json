@@ -1,0 +1,8 @@
+{
+    "label": "Shared Practices",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Shared practices are ways to accomplish common activities that are shared between Fediverse projects."
+    }
+}
