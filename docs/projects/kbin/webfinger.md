@@ -19,12 +19,11 @@ GET https://dev.karab.in/.well-known/webfinger?resource=acct:eee@dev.karab.in
 ## Example response:
 
 ### Person
+
 ```json
 {
   "subject": "acct:eee@dev.karab.in",
-  "aliases": [
-    "https://dev.karab.in/u/eee"
-  ],
+  "aliases": ["https://dev.karab.in/u/eee"],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
@@ -41,12 +40,11 @@ GET https://dev.karab.in/.well-known/webfinger?resource=acct:eee@dev.karab.in
 ```
 
 ### Group
+
 ```json
 {
   "subject": "acct:fediverse@dev.karab.in",
-  "aliases": [
-    "https://dev.karab.in/m/fediverse"
-  ],
+  "aliases": ["https://dev.karab.in/m/fediverse"],
   "links": [
     {
       "rel": "self",

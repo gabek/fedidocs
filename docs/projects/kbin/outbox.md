@@ -9,6 +9,7 @@ tags:
 ## Example:
 
 ### User outbox
+
 ```bash
 curl -H "Accept: application/activity+json, application/ld+json" https://dev.karab.in/u/eee/outbox
 ```

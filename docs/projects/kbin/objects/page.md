@@ -12,7 +12,7 @@ The `Page` is an object used for add more relevant links and articles displayed 
 ## Properties
 
 | Property | Data type | Description |
-|----------|-----------|-------------|
+| -------- | --------- | ----------- |
 | `type`\* | String    | Page        |
 
 ## Example
@@ -21,7 +21,7 @@ The `Page` is an object used for add more relevant links and articles displayed 
 curl -H "Accept: application/activity+json, application/ld+json" https://dev.karab.in/m/fediverse/t/2917
 ```
 
-```
+````
 ```json
 {
   "@context": [
@@ -63,4 +63,4 @@ curl -H "Accept: application/activity+json, application/ld+json" https://dev.kar
   "attachment": [],
   "source": "https://fedidevs.org/"
 }
-```
+````

@@ -10,7 +10,7 @@ tags:
 A `Follow` enables actors to access and retrieve content from other actors as soon as it updates. Activity is used with [`Person`](../objects/person) or [`Group`](../objects/group) objects.
 
 | Reference |                                                                    |
-|-----------|--------------------------------------------------------------------|
+| --------- | ------------------------------------------------------------------ |
 | Activity  | [Follow](https://www.w3.org/TR/activitypub/#follow-activity-inbox) |
 | Object    | `Person` or `Group`                                                |
 | ID        | A unique Follow request IRI                                        |
