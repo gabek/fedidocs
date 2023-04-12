@@ -1,0 +1,8 @@
+{
+    "label": "Actions",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Standardized ways to represent specific actions that are supported across different platforms."
+    }
+}
