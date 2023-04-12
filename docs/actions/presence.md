@@ -10,7 +10,7 @@ tags:
 
 Federated presence refers to sharing the status of an entity across the Fediverse. This is usually seen as a user becoming online/offline but could also be used to indicate something is active or available.
 
-The `Arrive` and `Leave` activities are used to indicate when an entity is online or offline. The `Place` object is used to indicate where the entity can be found.
+The `Arrive` and `Leave` activities are used to indicate when an entity is online or offline. The `Place` object with the `url` property is used to indicate where the entity can be found.
 
 ## Example
 
