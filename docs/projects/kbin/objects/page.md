@@ -13,7 +13,7 @@ The `Page` is an object used for add more relevant links and articles displayed 
 
 | Property | Data type | Description |
 |----------|-----------|-------------|
-| `type`\* | String    | Note        |
+| `type`\* | String    | Page        |
 
 ## Example
 

@@ -13,7 +13,7 @@ The `Group` is an object that represents an individual magazine / community.
 
 | Property | Data type | Description |
 |----------|-----------|-------------|
-| `type`\* | String    | Note        |
+| `type`\* | String    | Group       |
 
 ## Example
 

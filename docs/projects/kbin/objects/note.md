@@ -11,9 +11,9 @@ The `Note` is an object used to create comments, and posts in the microblog sect
 
 ## Properties
 
-| Property         | Data type                                                                   | Description |
-| ---------------- | --------------------------------------------------------------------------- |-------------|
-| `type`\*         | String                                                                      | Note        |
+| Property | Data type | Description |
+|----------|-----------|-------------|
+| `type`\* | String    | Note        |
 
 ## Example
 

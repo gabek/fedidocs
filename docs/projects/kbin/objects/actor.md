@@ -13,7 +13,7 @@ The `Actor` is an object that represents an individual user.
 
 | Property | Data type | Description |
 |----------|-----------|-------------|
-| `type`\* | String    | Note        |
+| `type`\* | String    | Person      |
 
 ## Example
 

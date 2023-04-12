@@ -1,12 +1,12 @@
 ---
 id: webfinger
 title: Webfinger
-sidebar_position: 3
+sidebar_position: 5
 tags:
   - Webfinger
 ---
 
-Owncast supports the [Webfinger](https://tools.ietf.org/html/rfc7033) protocol for discovering the ActivityPub location of a user.
+Kbin supports the [Webfinger](https://tools.ietf.org/html/rfc7033) protocol for discovering the ActivityPub location of a user.
 
 ## Example request:
 
