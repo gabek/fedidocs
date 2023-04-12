@@ -45,3 +45,8 @@ of active users.
 - [`Note`](objects/note)
 - [`Group`](objects/group)
 - [`Actor`](objects/person)
+
+## Keep in touch
+
+- `@ernest@karab.in`
+- `@ernest_:matrix.org`
