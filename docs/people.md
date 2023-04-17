@@ -25,7 +25,7 @@ description: Who is involved
   <th><a href="https://reb00ted.org/">Johannes Ernst</a></th>
   <td><a href="https://social.coop/@j12t">@j12t@social.coop</a></td>
   <td>@jernst:matrix.org</td>
-  <td><a href="https://dazzle.town/">Dazzle</a>: we're building an ActivityPub-enable Data Palace, yay!
+  <td><a href="https://dazzle.town/">Dazzle</a>: we're building an ActivityPub-enabled Data Palace, yay!
       (Work in progress)</td>
   <td>Project lead</td>
  </tr>
