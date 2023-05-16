@@ -21,3 +21,7 @@ slug: /
 
 - It is not a standards or governance body. The [W3C](https://www.w3.org/TR/activitypub) is behind ActivityPub and the [IETF](https://www.rfc-editor.org/rfc/rfc7033) is behind WebFinger.
 - It is not for changes or enhancements to the specs. See the [Fediverse Enhancement Proposals](https://codeberg.org/fediverse/fep).
+
+### Find us on Matrix
+
+- [Fediverse Developers Network Main Space](https://matrix.to/#/#fediverse-developer-network:matrix.org)
