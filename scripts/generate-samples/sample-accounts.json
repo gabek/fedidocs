@@ -1,0 +1,39 @@
+{
+    "Mastodon" : {
+        "@gargron@mastodon.social" : {}
+    },
+    "PeerTube" : {
+        "@peertube@framapiaf.org" : {}
+    },
+    "Calckey" : {
+        "@kainoa@calckey.social" : {}
+    },
+    "Misskey" : {
+        "https://misskey.io/@syuilo" : {}
+    },
+    "Streams" : {
+        "@mike@macgirvin.com" : {}
+    },
+    "Hubzilla" : {
+        "@contribute@hubzilla.org" : {}
+    },
+    "GNU Social" : {
+        "@dalme@gnusocial.cc" : {
+            "disabled" : "Not reachable as of 2023-05-26"
+        }
+    },
+    "Pleroma" : {
+        "@karolat@stereophonic.space" :  {}
+    },
+    "Pixelfed" : {
+        "@dansup@pixelfed.social" : {}
+    },
+    "Friendica" : {
+        "@tobias@friendi.ca" : {}
+    },
+    "Funkwhale" : {
+        "@Greensky@open.audio" : {}
+
+    }
+}
+
