@@ -3,7 +3,7 @@ title: Actor sample files
 description: A selection of Actor files as produced by common Fediverse apps
 ---
 
-As of 2023-05-26 03:53:38 UTC.
+As of 2023-05-27 02:15:25 UTC.
 
 ## App: Mastodon, handle ``@gargron@mastodon.social``
 
@@ -522,16 +522,61 @@ Endpoint: https://macgirvin.com/channel/mike
   ],
   "signature": {
     "type": "RsaSignature2017",
-    "nonce": "a98f4f187b59fc34a0b408beddfc2db26effc5eaf05f8a8ee76167876358d037",
+    "nonce": "f2affb1f893743a4ca279864d15ee3a801db584f649d7ab612cd07ea4c9c40b1",
     "creator": "https://macgirvin.com/channel/mike",
-    "created": "2023-05-26T03:53:41Z",
-    "signatureValue": "ktYv5yh0RDk4vFZ23wisv0uwAYnMCoz4stbwoa/tlDSdYrcGfC6xQ2CDSK2zshsvKBgSbcexBEWQQSJV4Wu6qu4H16CjcQkR+ihN8aSIHr5KdFSkVdY5JeOwYAmfFX+qNefHmKPl7orMlLcKIB6fDjc7Jz00X/6VQ5NsprLP1xprWjtkVZMCi/fN9e5f/EWiZ+PKJjDAoic134xjME8R9lG1DGEZL4Ypfdp6deBBhNuG4CVN9DwDIJ3VGivQeuUQPP4QzJLYqUec8HVKwGlnQQg838MHF+ZRn1A57rxsLEmEmce23JqQG7Ag4UnFRWdEzYjrSeL2iJDy99+umZv0GVa9tfkLfteyVk2icdM0a2CXnCxJi/DZDz4BQVJaG0ywdy93mIeRVan5se+giFte61ZZkcd9i1Zg7WEow3UZfb/Mzjvr0uhw3XXs5xYM5hi0tIzurv4du5VBNqPILq1icTsQCxmED1ReqHXkCQj98CoAa7NXsI4tRjptGfRgCwo/qE3Tk7G70teOLJZStN4N83bf6vRMpUtbplI6KmwZihbifwHc6TLhmqN/BUo06PwHn3D0YGC3iwra1rYa1U4u9eCj7nHAK2WZ0i3nxBH399ICjDEEfCLF8pQu/jBtSYeVbBOgECSRPKcwkC48pqnTZ6ftc/gkKokw5pDkJ12wwr8="
+    "created": "2023-05-27T02:15:29Z",
+    "signatureValue": "KWDR+qBTiHQ/4lz56tr2siaw7LNg6UgTnxT5r+76JGJCplULcC4AhNE0UE0GBXA4DowqK2KDLULLlscIjQuQj3uSPQ+UKcl0XkhDLB+6q9F+sB2/03vWagGSD4PYdCJlgr205ugp3Ia1AVGP6nusomh3kPtXNLjCaentR+++YxDkm+d36ZEbHeIq7pVHHsaR781MniT1YsYro38uwpIuKQxpWV5KyhlKN60RIzfv6XmAofmW5vwMdOfF0ylw4gmaHz5AxsO4T1G1bv2xmW3TY1i8vSnc3rkC749mK1GXSKZVbEOBWIdZev5iJvG939LzI3++zgMLYEWjAEFfndDlduoplUJi2cjwlDYE20NyjqZrlQaKHoSzjHVG6n4tnlUfiw868yl4wcaToTewRxGdL5V5uIi/fdrU/ValKiGqj+vwY4Z72DiptKe7yI8l0XijQfVKTsaCwU+BTGois27fDe7If8cSQ349FiHeoiEnmyCozRHdf4i3mHdl9Jj0HXXzvkvr6amG3r4bFqYXtOGJndylVwlniu0MfE7sxEhKnBFooRYbnKBGgf2q1ha6pU7My9xmj2WvgpMMHuLgdUJivcP+MLybsFdGvVHLFYuZt7lNzhZdaVtEKfUcJpgcxpsOxBTrO7mLgiYs+xXUrTmp9E8y5XjVAhf5KC09ZqQQEHI="
   }
 }
 ```
 
 ## App: Hubzilla, handle ``@contribute@hubzilla.org``
 Actor JSON not found.
+
+## App: GNU Social, handle ``@administrator@gnusocial.net``
+
+Endpoint: https://gnusocial.net/index.php/user/1
+
+```js
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers"
+    }
+  ],
+  "id": "https://gnusocial.net/index.php/user/1",
+  "type": "Person",
+  "following": "https://gnusocial.net/user/1/following.json",
+  "followers": "https://gnusocial.net/user/1/followers.json",
+  "liked": "https://gnusocial.net/user/1/liked.json",
+  "inbox": "https://gnusocial.net/user/1/inbox.json",
+  "outbox": "https://gnusocial.net/user/1/outbox.json",
+  "preferredUsername": "administrator",
+  "name": "admin de gnusocial.net",
+  "summary": "Admin de gnusocial.net. Servidor ofrecido por https://elbinario.net",
+  "url": "https://gnusocial.net/administrator",
+  "manuallyApprovesFollowers": false,
+  "publicKey": {
+    "id": "https://gnusocial.net/index.php/user/1#public-key",
+    "owner": "https://gnusocial.net/index.php/user/1",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzd2KFM2gHLq1b/zh3MtU\niuYmhRbxIIeuuXmm93bWbrldf7XomEMRvgbmvZJCQag60ZnVz7u2h76OpY/pyLmc\nkfjM5Xqy4lBv2wirYRdEMNcCVEi361IHrtYhJY4n/2d+Q0RCupAh6/ugTNSCnc9M\npMP6nAbNPkGEYa6y1C+oENUhjmOsKo0VIlpddJUb0adXBtj5LKRBkZmpBfZWf4jj\n/xQdsVH908p9NVsvJsgXNLaJRfFo4zmJ+YvMjJUmSoYWnIhpjMfDdqErXyaVpLbk\njnWd0tKyQYCUU5suJI1s0/7QPUQynLLnb8bKI4MAuKn7c/kfDJkM7RgV+3Q7k83T\nhwIDAQAB\n-----END PUBLIC KEY-----"
+  },
+  "tag": [],
+  "attachment": [],
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "height": 96,
+    "width": 96,
+    "url": "https://gnusocial.net/avatar/1-96-20200119102924.jpeg"
+  },
+  "endpoints": {
+    "sharedInbox": "https://gnusocial.net/inbox.json"
+  }
+}
+```
 
 ## App: Pleroma, handle ``@karolat@stereophonic.space``
 
@@ -717,7 +762,7 @@ Endpoint: https://open.audio/federation/actors/Greensky
   ],
   "icon": {
     "type": "Image",
-    "url": "https://s3.eu-central-2.wasabisys.com/open-audio/attachments/c3/7b/14/img_20221123_125817.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=69ST19MZXMKJ5ZP4NF6L%2F20230526%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Date=20230526T035347Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21b852a9e696110028f3db2c3e03fffef9e8d11ef2a56b84f0fc18e0612e8fd5",
+    "url": "https://s3.eu-central-2.wasabisys.com/open-audio/attachments/c3/7b/14/img_20221123_125817.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=69ST19MZXMKJ5ZP4NF6L%2F20230527%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Date=20230527T021537Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=39b0a439c8957cce0ebae2fa10f6ce4e8d5ae9e41957bb7e043a725cf2b68a09",
     "mediaType": "image/jpeg"
   },
   "@context": [
@@ -737,6 +782,374 @@ Endpoint: https://open.audio/federation/actors/Greensky
   "endpoints": {
     "sharedInbox": "https://open.audio/federation/shared/inbox"
   }
+}
+```
+
+## App: WriteFreely, handle ``@matt@write.as``
+
+Endpoint: https://write.as/api/collections/matt
+
+```js
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ],
+  "type": "Person",
+  "id": "https://write.as/api/collections/matt",
+  "inbox": "https://write.as/api/collections/matt/inbox",
+  "outbox": "https://write.as/api/collections/matt/outbox",
+  "preferredUsername": "matt",
+  "url": "https://write.as/matt/",
+  "name": "Matt",
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "url": "https://write.as/img/avatars/m.png"
+  },
+  "following": "https://write.as/api/collections/matt/following",
+  "followers": "https://write.as/api/collections/matt/followers",
+  "summary": "Founder, [Musing Studio](https://musing.studio) / [Write.as](https://write.as).",
+  "publicKey": {
+    "id": "https://write.as/api/collections/matt#main-key",
+    "owner": "https://write.as/api/collections/matt",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnUauwxWlUrkSFENqEgDl\n877Ci3QOQMDGTnZwjCFFEemW47AfNSAxRURzyi520V7UO1yVNEuvnV66hJN0kbhn\n3f9pHE8LTIalUJTpi+FxU2Qm8le82j7dsQc4gx7U7muHDPg8AiasSHvvS+qaKMvo\n+NSTwzQSrstngHeexiolGeGEfJLUirAtPgZVCPfAFnw5Z7sk9SBkZEpjoNqq+kA0\nHyV66/J8UYl/HZT4kVSXjc2hjlkJlhsjaVEXNuS/xaLyCJoanYY4wYe8EbP/e50+\nyKdRBznNJGbOvHNy14rmkGg9S8slEvQSg2UnrstrEaFrCnMkHzK3h/e96Xfw/T3Q\nDwIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "endpoints": {}
+}
+```
+
+## App: Plume, handle ``@actapopuli@fediverse.blog``
+
+Endpoint: https://fediverse.blog/@/actapopuli/
+
+```js
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "Emoji": "toot:Emoji",
+      "Hashtag": "as:Hashtag",
+      "atomUri": "ostatus:atomUri",
+      "conversation": "ostatus:conversation",
+      "featured": "toot:featured",
+      "focalPoint": {
+        "@container": "@list",
+        "@id": "toot:focalPoint"
+      },
+      "inReplyToAtomUri": "ostatus:inReplyToAtomUri",
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+      "movedTo": "as:movedTo",
+      "ostatus": "http://ostatus.org#",
+      "sensitive": "as:sensitive",
+      "toot": "http://joinmastodon.org/ns#"
+    }
+  ],
+  "endpoints": {
+    "sharedInbox": "https://fediverse.blog/inbox"
+  },
+  "followers": "https://fediverse.blog/@/actapopuli/followers",
+  "icon": {
+    "type": "Image",
+    "url": "https://fediverse.blog/static/media/B1434302-79AF-128D-AA78-B2AF0499C60F.png"
+  },
+  "id": "https://fediverse.blog/@/actapopuli/",
+  "inbox": "https://fediverse.blog/@/actapopuli/inbox",
+  "name": "actapopuli",
+  "outbox": "https://fediverse.blog/@/actapopuli/outbox",
+  "preferredUsername": "actapopuli",
+  "publicKey": {
+    "id": "https://fediverse.blog/@/actapopuli/#main-key",
+    "owner": "https://fediverse.blog/@/actapopuli/",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyTRo83oDsK2V0ZmIIsjP\naesrEfeJPQlmedCuMFFLxUtRLXZCrf6KjCBWKYYu9wO4kZCeOIc7e+1WfAWgEXT3\na+Cjc8kYa4tNnT9j2nbjdbWOs2xFR286vXIbj97zjXmTJqMHQiaLDaUmvuGKaY2Y\nHAaFvbjkSTcPIrimFGhEerYl+q0thfLq+geHYC8rLVkdd2np7Do0Wjm+Z69VI4y2\n/lXQ9ou0JFuXJtUAtjEYUh1Ey7Or2R7NkrSpSd5MVrMRyhpsxT8NzjNXJCx7E/Vt\nXbDnQ2uKso0LsTmpZtDDjvQh9zCkvunFlWxgedv3tuC4Zrj3mlruCZXURg2Ssr0W\nEQIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "summary": "<p>Dissemination of views and interesting, important and controversial perspectives largely excluded from the mainstream media.</p>\n",
+  "type": "Person",
+  "url": "https://fediverse.blog/@/actapopuli/"
+}
+```
+
+## App: Mobilizon, handle ``@framasoft@mobilizon.fr``
+
+Endpoint: https://mobilizon.fr/@framasoft
+
+```js
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "addressRegion": "sc:addressRegion",
+      "timezone": {
+        "@id": "mz:timezone",
+        "@type": "sc:Text"
+      },
+      "isOnline": {
+        "@id": "mz:isOnline",
+        "@type": "sc:Boolean"
+      },
+      "pt": "https://joinpeertube.org/ns#",
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+      "inLanguage": "sc:inLanguage",
+      "address": {
+        "@id": "sc:address",
+        "@type": "sc:PostalAddress"
+      },
+      "discoverable": "toot:discoverable",
+      "repliesModerationOption": {
+        "@id": "mz:repliesModerationOption",
+        "@type": "mz:repliesModerationOptionType"
+      },
+      "sc": "http://schema.org#",
+      "mz": "https://joinmobilizon.org/ns#",
+      "category": "sc:category",
+      "joinModeType": {
+        "@id": "mz:joinModeType",
+        "@type": "rdfs:Class"
+      },
+      "Hashtag": "as:Hashtag",
+      "propertyID": "sc:propertyID",
+      "PostalAddress": "sc:PostalAddress",
+      "discussions": {
+        "@id": "mz:discussions",
+        "@type": "@id"
+      },
+      "remainingAttendeeCapacity": "sc:remainingAttendeeCapacity",
+      "streetAddress": "sc:streetAddress",
+      "anonymousParticipationEnabled": {
+        "@id": "mz:anonymousParticipationEnabled",
+        "@type": "sc:Boolean"
+      },
+      "addressLocality": "sc:addressLocality",
+      "joinMode": {
+        "@id": "mz:joinMode",
+        "@type": "mz:joinModeType"
+      },
+      "location": {
+        "@id": "sc:location",
+        "@type": "sc:Place"
+      },
+      "toot": "http://joinmastodon.org/ns#",
+      "participantCount": {
+        "@id": "mz:participantCount",
+        "@type": "sc:Integer"
+      },
+      "uuid": "sc:identifier",
+      "maximumAttendeeCapacity": "sc:maximumAttendeeCapacity",
+      "participationMessage": {
+        "@id": "mz:participationMessage",
+        "@type": "sc:Text"
+      },
+      "openness": {
+        "@id": "mz:openness",
+        "@type": "@id"
+      },
+      "members": {
+        "@id": "mz:members",
+        "@type": "@id"
+      },
+      "events": {
+        "@id": "mz:events",
+        "@type": "@id"
+      },
+      "resources": {
+        "@id": "mz:resources",
+        "@type": "@id"
+      },
+      "addressCountry": "sc:addressCountry",
+      "posts": {
+        "@id": "mz:posts",
+        "@type": "@id"
+      },
+      "commentsEnabled": {
+        "@id": "pt:commentsEnabled",
+        "@type": "sc:Boolean"
+      },
+      "value": "sc:value",
+      "PropertyValue": "sc:PropertyValue",
+      "repliesModerationOptionType": {
+        "@id": "mz:repliesModerationOptionType",
+        "@type": "rdfs:Class"
+      },
+      "todos": {
+        "@id": "mz:todos",
+        "@type": "@id"
+      },
+      "ical": "http://www.w3.org/2002/12/cal/ical#",
+      "postalCode": "sc:postalCode",
+      "memberCount": {
+        "@id": "mz:memberCount",
+        "@type": "sc:Integer"
+      },
+      "@language": "und"
+    }
+  ],
+  "discoverable": true,
+  "discussions": "https://mobilizon.fr/@framasoft/discussions",
+  "endpoints": {
+    "discussions": "https://mobilizon.fr/@framasoft/discussions",
+    "events": "https://mobilizon.fr/@framasoft/events",
+    "members": "https://mobilizon.fr/@framasoft/members",
+    "posts": "https://mobilizon.fr/@framasoft/posts",
+    "resources": "https://mobilizon.fr/@framasoft/resources",
+    "sharedInbox": "https://mobilizon.fr/inbox",
+    "todos": "https://mobilizon.fr/@framasoft/todos"
+  },
+  "events": "https://mobilizon.fr/@framasoft/events",
+  "followers": "https://mobilizon.fr/@framasoft/followers",
+  "following": "https://mobilizon.fr/@framasoft/following",
+  "icon": {
+    "mediaType": "image/png",
+    "type": "Image",
+    "url": "https://mobilizon.fr/media/ff5b2d425fb73e17fcbb56a1a032359ee0b21453c11af59e103e783817a32fdf.png?name=framasoft%27s%20avatar.png"
+  },
+  "id": "https://mobilizon.fr/@framasoft",
+  "image": {
+    "mediaType": "image/jpeg",
+    "type": "Image",
+    "url": "https://mobilizon.fr/media/7b340fe641e7ad711ebb6f8821b5ce824992db08701e37ebb901c175436aaafc.jpg?name=framasoft%27s%20banner.jpg"
+  },
+  "inbox": "https://mobilizon.fr/@framasoft/inbox",
+  "location": {
+    "address": {
+      "addressCountry": null,
+      "addressLocality": null,
+      "addressRegion": null,
+      "postalCode": null,
+      "streetAddress": null,
+      "type": "PostalAddress"
+    },
+    "id": "https://mobilizon.fr/address/e5a11089-5646-4905-84c9-2be31f0b39a3",
+    "name": null,
+    "type": "Place"
+  },
+  "manuallyApprovesFollowers": false,
+  "memberCount": 14,
+  "members": "https://mobilizon.fr/@framasoft/members",
+  "name": "Framasoft",
+  "openness": "moderated",
+  "outbox": "https://mobilizon.fr/@framasoft/outbox",
+  "posts": "https://mobilizon.fr/@framasoft/posts",
+  "preferredUsername": "framasoft",
+  "publicKey": {
+    "id": "https://mobilizon.fr/@framasoft#main-key",
+    "owner": "https://mobilizon.fr/@framasoft",
+    "publicKeyPem": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAuy0YgN9pPTSzMHhEnRCyXf98xQV8fRqKcAAo53edoFa7Cpkow5mM\nXowJGi7uqsMpLnyOEKvify7Y7gfLzbH8IuCfJxLJ19EsTte+xzWDkiqMZ9HC3HPQ\n0ZEIkBIeDbExBZZwPRbku9ft5ZxU+PRqn1E93pcPM9qEC0vQ2f+LggDX4x89M6UG\nLPbXVOMPMQwizt5Zi4b5WpZOi7YL4nIEUodkqAZAtVO51HGTtBX64uGxg3xQTt2c\nl/fOO6LwWus4wu0HALMQGy/CMG7oDBiccDYEshDLRmORxWukG1iYSUgphLXZb0ks\nsT+if9DwBA6S6WpIJ7/BiZxv/aqTIlGAIQIDAQAB\n-----END RSA PUBLIC KEY-----\n\n"
+  },
+  "resources": "https://mobilizon.fr/@framasoft/resources",
+  "summary": "",
+  "todos": "https://mobilizon.fr/@framasoft/todos",
+  "type": "Group",
+  "url": "https://mobilizon.fr/@framasoft"
+}
+```
+
+## App: Lemmy, handle ``@lemmy_support@lemmy.ml``
+
+Endpoint: https://lemmy.ml/c/lemmy_support
+
+```js
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "lemmy": "https://join-lemmy.org/ns#",
+      "litepub": "http://litepub.social/ns#",
+      "pt": "https://joinpeertube.org/ns#",
+      "sc": "http://schema.org/",
+      "ChatMessage": "litepub:ChatMessage",
+      "commentsEnabled": "pt:commentsEnabled",
+      "sensitive": "as:sensitive",
+      "matrixUserId": "lemmy:matrixUserId",
+      "postingRestrictedToMods": "lemmy:postingRestrictedToMods",
+      "removeData": "lemmy:removeData",
+      "stickied": "lemmy:stickied",
+      "moderators": {
+        "@type": "@id",
+        "@id": "lemmy:moderators"
+      },
+      "expires": "as:endTime",
+      "distinguished": "lemmy:distinguished",
+      "language": "sc:inLanguage",
+      "identifier": "sc:identifier"
+    }
+  ],
+  "type": "Group",
+  "id": "https://lemmy.ml/c/lemmy_support",
+  "preferredUsername": "lemmy_support",
+  "inbox": "https://lemmy.ml/c/lemmy_support/inbox",
+  "followers": "https://lemmy.ml/c/lemmy_support/followers",
+  "publicKey": {
+    "id": "https://lemmy.ml/c/lemmy_support#main-key",
+    "owner": "https://lemmy.ml/c/lemmy_support",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwPOjwyvVEQRZFzqRh3up\njHVguAhuht2LCHzs4FVBCw59TxP3CItF9vt19STXdJCT7g2tSdMq0B3sGNiv/qz2\nNshnNWEXQbumAOkBXHrk0wGjo6+VhbvJdFR7bP/Sfb9iUKj/ALSVpiA9xjYHHu5+\nTt5LzIgdBdCm9eB5x81Hbogtoxi1435u3Z+YnOiPSPphf+oAiNKtGaXm9B+DtrrX\nFUbNT5i4ZI6yPJ+jxr/iTIIIDwJSGWZk8ftfT0oyEDhK0hrD4EdNk/EiCtd/rsi6\nx99XH1M1T1WqqNPDftmpwmmv6vIhObUk881+kbhj0ATmAL3EragFqxNz9c14u6Zv\nhQIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "name": "Lemmy Support",
+  "summary": "<p>Support / questions about Lemmy.</p>\n",
+  "source": {
+    "content": "Support / questions about Lemmy.",
+    "mediaType": "text/markdown"
+  },
+  "sensitive": false,
+  "moderators": "https://lemmy.ml/c/lemmy_support/moderators",
+  "attributedTo": "https://lemmy.ml/c/lemmy_support/moderators",
+  "postingRestrictedToMods": false,
+  "outbox": "https://lemmy.ml/c/lemmy_support/outbox",
+  "endpoints": {
+    "sharedInbox": "https://lemmy.ml/inbox"
+  },
+  "featured": "https://lemmy.ml/c/lemmy_support/featured",
+  "language": [],
+  "published": "2019-04-25T16:53:06.109704+00:00",
+  "updated": "2021-09-18T20:48:52.837456+00:00"
+}
+```
+
+## App: Micro.blog, handle ``@manton@manton.org``
+
+Endpoint: https://manton.org/activitypub/manton
+
+```js
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://manton.org/activitypub/manton",
+  "type": "Person",
+  "preferredUsername": "manton",
+  "name": "Manton Reece",
+  "summary": "I created Micro.blog. I also have 2 podcasts: Core Intuition and Timetable.",
+  "inbox": "https://micro.blog/activitypub/manton/inbox",
+  "outbox": "https://micro.blog/activitypub/manton/outbox",
+  "followers": "https://micro.blog/activitypub/manton/followers",
+  "endpoints": {
+    "sharedInbox": "https://micro.blog/activitypub/shared/inbox"
+  },
+  "publicKey": {
+    "id": "https://micro.blog/activitypub/manton#key",
+    "owner": "https://manton.org/activitypub/manton",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuR/w8q5qb2jbya4mT+Qb\n8mcEuBciT1csv19wltGdEajvOfFP7IoC5CQKIEFBFOIx04e7PzUd2I3Cm0rmHM4V\nIKs6aMXAtgGd9Bz8gfl98VmVukN2QZbJs/MyImj0LXgDsgr8wzABA/BX2sCloPjE\nDBSuJG1pA6n6/+BNlV9/Jfz37AUhewRTfuUnaNp5X/BGcfNTD12ZsHNhD3DorrKC\nV03db0V0LBoNTECRAIBgMeOoq+U+VU/a9bIRWLglBjKZuUGhxmg1/6o0+dxKMzI6\nZtuMUsRC0E9RHTCiLGW4DAYFKxIF2yFcOgm24PCDuUjSgMmP4FiGlUsU5hMMVrHC\nZQIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "icon": {
+    "url": "https://micro.blog/manton/avatar.jpg",
+    "type": "Image",
+    "mediaType": "image/jpeg"
+  },
+  "image": {
+    "url": "https://avatars.micro.blog/avatars/2023/07/3_header.jpg",
+    "type": "Image",
+    "mediaType": "image/jpeg"
+  },
+  "alsoKnownAs": [
+    "https://mastodon.social/users/manton"
+  ],
+  "attachment": [
+    {
+      "type": "PropertyValue",
+      "name": "Blog",
+      "value": "<a href=\"https://manton.org/\">manton.org</a>"
+    }
+  ]
 }
 ```
 

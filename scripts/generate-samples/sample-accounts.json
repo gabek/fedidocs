@@ -18,9 +18,7 @@
         "@contribute@hubzilla.org" : {}
     },
     "GNU Social" : {
-        "@dalme@gnusocial.cc" : {
-            "disabled" : "Not reachable as of 2023-05-26"
-        }
+        "@administrator@gnusocial.net" : {}
     },
     "Pleroma" : {
         "@karolat@stereophonic.space" :  {}
@@ -33,7 +31,22 @@
     },
     "Funkwhale" : {
         "@Greensky@open.audio" : {}
-
+    },
+    "WriteFreely" : {
+        "@matt@write.as" : {}
+    },
+    "Plume" : {
+        "@actapopuli@fediverse.blog" : {}
+    },
+    "Mobilizon" : {
+        "@framasoft@mobilizon.fr" : {}
+    },
+    "Lemmy" : {
+        "@lemmy_support@lemmy.ml" : {}
+    },
+    "Micro.blog" : {
+        "@manton@manton.org" : {}
     }
+
 }
 

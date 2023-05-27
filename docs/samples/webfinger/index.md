@@ -3,7 +3,7 @@ title: Webfinger sample files
 description: A selection of Webfinger files as produced by common Fediverse apps
 ---
 
-As of 2023-05-26 03:53:32 UTC.
+As of 2023-05-27 02:15:16 UTC.
 
 ## App: Mastodon, handle ``@gargron@mastodon.social``
 
@@ -246,6 +246,91 @@ Endpoint: https://hubzilla.org/.well-known/webfinger?resource=acct%3acontribute@
 }
 ```
 
+## App: GNU Social, handle ``@administrator@gnusocial.net``
+
+Endpoint: https://gnusocial.net/.well-known/webfinger?resource=acct%3aadministrator@gnusocial.net
+
+```js
+{
+  "subject": "acct:administrator@gnusocial.net",
+  "aliases": [
+    "https://gnusocial.net/index.php/user/1",
+    "https://gnusocial.net/administrator",
+    "https://gnusocial.net/user/1",
+    "https://gnusocial.net/index.php/administrator"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://gnusocial.net/administrator"
+    },
+    {
+      "rel": "http://gmpg.org/xfn/11",
+      "type": "text/html",
+      "href": "https://gnusocial.net/administrator"
+    },
+    {
+      "rel": "describedby",
+      "type": "application/rdf+xml",
+      "href": "https://gnusocial.net/administrator/foaf"
+    },
+    {
+      "rel": "http://apinamespace.org/atom",
+      "type": "application/atomsvc+xml",
+      "href": "https://gnusocial.net/api/statusnet/app/service/administrator.xml"
+    },
+    {
+      "rel": "http://apinamespace.org/twitter",
+      "href": "https://gnusocial.net/api/"
+    },
+    {
+      "rel": "http://schemas.google.com/g/2010#updates-from",
+      "type": "application/atom+xml",
+      "href": "https://gnusocial.net/api/statuses/user_timeline/1.atom"
+    },
+    {
+      "rel": "magic-public-key",
+      "href": "data:application/magic-public-key,RSA.lrWlx-ufdZ3OgBuV1ZKHQ1T4Rx99QcThod8Bpn1jhmpOufts8oQ1CV7YK0SKTCHLFU6ZQSjm8f3aftoHnW6W51WxqCFD6VFFpQYO6ur8Vf0rYRIpgLVKKS1dl5OdVdQ0Rtj1fsUC2QMD9f7r4tEJQmHnjM8t7twjlN_x83gxwis=.AQAB"
+    },
+    {
+      "rel": "diaspora-public-key",
+      "type": "RSA",
+      "href": "LS0tLS1CRUdJTiBSU0EgUFVCTElDIEtFWS0tLS0tDQpNSUdKQW9HQkFKYTFwY2ZybjNXZHpvQWJsZFdTaDBOVStFY2ZmVUhFNGFIZkFhWjlZNFpxVHJuN2JQS0VOUWxlDQoyQ3RFaWt3aHl4Vk9tVUVvNXZIOTJuN2FCNTF1bHVkVnNhZ2hRK2xSUmFVR0R1cnEvRlg5SzJFU0tZQzFTaWt0DQpYWmVUblZYVU5FYlk5WDdGQXRrREEvWCs2K0xSQ1VKaDU0elBMZTdjSTVUZjhmTjRNY0lyQWdNQkFBRT0NCi0tLS0tRU5EIFJTQSBQVUJMSUMgS0VZLS0tLS0="
+    },
+    {
+      "rel": "http://joindiaspora.com/guid",
+      "href": "a7ea2e0f4f4b270d6a1b59638171309d5d1225b0a8dfd2473e375ded45bd4982"
+    },
+    {
+      "rel": "salmon",
+      "href": "https://gnusocial.net/main/salmon/user/1"
+    },
+    {
+      "rel": "http://salmon-protocol.org/ns/salmon-replies",
+      "href": "https://gnusocial.net/main/salmon/user/1"
+    },
+    {
+      "rel": "http://salmon-protocol.org/ns/salmon-mention",
+      "href": "https://gnusocial.net/main/salmon/user/1"
+    },
+    {
+      "rel": "http://specs.openid.net/auth/2.0/provider",
+      "href": "https://gnusocial.net/administrator"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://gnusocial.net/main/remotefollowsub?profile={uri}"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://gnusocial.net/index.php/user/1"
+    }
+  ]
+}
+```
+
 ## App: Pleroma, handle ``@karolat@stereophonic.space``
 
 Endpoint: https://stereophonic.space/.well-known/webfinger?resource=acct%3akarolat@stereophonic.space
@@ -358,6 +443,148 @@ Endpoint: https://open.audio/.well-known/webfinger?resource=acct%3aGreensky@open
   ],
   "aliases": [
     "https://open.audio/federation/actors/Greensky"
+  ]
+}
+```
+
+## App: WriteFreely, handle ``@matt@write.as``
+
+Endpoint: https://write.as/.well-known/webfinger?resource=acct%3amatt@write.as
+
+```js
+{
+  "subject": "acct:matt@write.as",
+  "aliases": [
+    "https://write.as/matt/",
+    "https://write.as/api/collections/matt"
+  ],
+  "links": [
+    {
+      "href": "https://write.as/matt/",
+      "type": "text/html",
+      "rel": "https://webfinger.net/rel/profile-page"
+    },
+    {
+      "href": "https://write.as/api/collections/matt",
+      "type": "application/activity+json",
+      "rel": "self"
+    }
+  ]
+}
+```
+
+## App: Plume, handle ``@actapopuli@fediverse.blog``
+
+Endpoint: https://fediverse.blog/.well-known/webfinger?resource=acct%3aactapopuli@fediverse.blog
+
+```js
+{
+  "subject": "acct:actapopuli@fediverse.blog",
+  "aliases": [
+    "https://fediverse.blog/@/actapopuli/"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://fediverse.blog/@/actapopuli/",
+      "type": "text/html"
+    },
+    {
+      "rel": "http://schemas.google.com/g/2010#updates-from",
+      "href": "https://fediverse.blog/@/actapopuli/feed.atom",
+      "type": "application/atom+xml"
+    },
+    {
+      "rel": "self",
+      "href": "https://fediverse.blog/@/actapopuli/",
+      "type": "application/activity+json"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://fediverse.blog/remote_interact?target={uri}"
+    }
+  ]
+}
+```
+
+## App: Mobilizon, handle ``@framasoft@mobilizon.fr``
+
+Endpoint: https://mobilizon.fr/.well-known/webfinger?resource=acct%3aframasoft@mobilizon.fr
+
+```js
+{
+  "aliases": [
+    "https://mobilizon.fr/@framasoft"
+  ],
+  "links": [
+    {
+      "href": "https://mobilizon.fr/@framasoft",
+      "rel": "self",
+      "type": "application/activity+json"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mobilizon.fr/interact?uri={uri}"
+    },
+    {
+      "href": "https://mobilizon.fr/media/ff5b2d425fb73e17fcbb56a1a032359ee0b21453c11af59e103e783817a32fdf.png?name=framasoft%27s%20avatar.png",
+      "rel": "http://webfinger.net/rel/avatar",
+      "type": "image/png"
+    },
+    {
+      "href": "https://mobilizon.fr/@framasoft",
+      "rel": "http://webfinger.net/rel/profile-page/",
+      "type": "text/html"
+    }
+  ],
+  "subject": "acct:framasoft@mobilizon.fr"
+}
+```
+
+## App: Lemmy, handle ``@lemmy_support@lemmy.ml``
+
+Endpoint: https://lemmy.ml/.well-known/webfinger?resource=acct%3alemmy_support@lemmy.ml
+
+```js
+{
+  "subject": "acct:lemmy_support@lemmy.ml",
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://lemmy.ml/c/lemmy_support",
+      "properties": {}
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://lemmy.ml/c/lemmy_support",
+      "properties": {
+        "https://www.w3.org/ns/activitystreams#type": "Group"
+      }
+    }
+  ]
+}
+```
+
+## App: Micro.blog, handle ``@manton@manton.org``
+
+Endpoint: https://manton.org/.well-known/webfinger?resource=acct%3amanton@manton.org
+
+```js
+{
+  "subject": "acct:manton@manton.org",
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://manton.org/activitypub/manton"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://manton.org/activitypub/manton"
+    }
   ]
 }
 ```
