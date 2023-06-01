@@ -81,8 +81,8 @@ const config = {
             position: "left",
           },
           {
-            to: "/category/samples",
-            label: "Samples",
+            to: "/category/reference",
+            label: "Reference",
             position: "left",
           },
           {

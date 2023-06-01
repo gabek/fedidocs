@@ -3,7 +3,8 @@ title: Actor sample files
 description: A selection of Actor files as produced by common Fediverse apps
 ---
 
-As of 2023-05-27 02:15:25 UTC.
+As of 2023-06-01 20:52:33 UTC. To regenerate, run `make`
+in directory `scripts`.
 
 ## App: Mastodon, handle ``@gargron@mastodon.social``
 
@@ -522,10 +523,10 @@ Endpoint: https://macgirvin.com/channel/mike
   ],
   "signature": {
     "type": "RsaSignature2017",
-    "nonce": "f2affb1f893743a4ca279864d15ee3a801db584f649d7ab612cd07ea4c9c40b1",
+    "nonce": "b05460def60389ef5a0ca7c625b0bb30f541e01e050b063461131a4e20e3a2f5",
     "creator": "https://macgirvin.com/channel/mike",
-    "created": "2023-05-27T02:15:29Z",
-    "signatureValue": "KWDR+qBTiHQ/4lz56tr2siaw7LNg6UgTnxT5r+76JGJCplULcC4AhNE0UE0GBXA4DowqK2KDLULLlscIjQuQj3uSPQ+UKcl0XkhDLB+6q9F+sB2/03vWagGSD4PYdCJlgr205ugp3Ia1AVGP6nusomh3kPtXNLjCaentR+++YxDkm+d36ZEbHeIq7pVHHsaR781MniT1YsYro38uwpIuKQxpWV5KyhlKN60RIzfv6XmAofmW5vwMdOfF0ylw4gmaHz5AxsO4T1G1bv2xmW3TY1i8vSnc3rkC749mK1GXSKZVbEOBWIdZev5iJvG939LzI3++zgMLYEWjAEFfndDlduoplUJi2cjwlDYE20NyjqZrlQaKHoSzjHVG6n4tnlUfiw868yl4wcaToTewRxGdL5V5uIi/fdrU/ValKiGqj+vwY4Z72DiptKe7yI8l0XijQfVKTsaCwU+BTGois27fDe7If8cSQ349FiHeoiEnmyCozRHdf4i3mHdl9Jj0HXXzvkvr6amG3r4bFqYXtOGJndylVwlniu0MfE7sxEhKnBFooRYbnKBGgf2q1ha6pU7My9xmj2WvgpMMHuLgdUJivcP+MLybsFdGvVHLFYuZt7lNzhZdaVtEKfUcJpgcxpsOxBTrO7mLgiYs+xXUrTmp9E8y5XjVAhf5KC09ZqQQEHI="
+    "created": "2023-06-01T20:52:37Z",
+    "signatureValue": "Xfm7BM0ikiauP252L1JljdmF7rue8IQUJKyBANubcOWByaPizgEjDBRvSrwWMrAYf6EMo2ncMPMUa9ngKaN+ASALDEjVg/G6qU1eQx88CnVESmtMbf+XuMXnneiZmdarXMYtts52myOF7bDlOrnRBTpkXJ7lEhO4Gn/9+U9riJFYtGQXCQewnDngcrVlSJuQ0cFsIODjwAy73qkE6jXqX6e6jXgTFYGv2Tg3iThjCnGpPcknHma1CntV+KLfCEiVKyacmZqIFH4VFrGmOsdDJr4FX9nhcroVoQOqlSZo7trQwg6ErOy5HLdJRXzajJDriVNnujxgApfQgSwvtdccPzylZcnzamFHsK9SZADTQDkVbiwPvVV6dIJbEosob4SjS4NDWsrE3qIFNWdUC3ZA6Rh1qEi+ML431K71qs46IpiSNAO9S9RSQf1sVxVkzj6D6cLsD2YqObjejRtbcicjCGnm1VmAeEkOdLsp04A23vYm83G2zvlmuYVlcSszXxrMx3Cckh2v1tHrbmanZwMvDGrj67IEd6CXd7r2T2hXxfNBe7b0Ms+3SOxEDULBA6uzMEtKMK1iMQ0UwarMftyz2jp6/zR2HRP9TjbOVyKVRbZdLSJIgP+X+6I4VTxJhY6oNnFO2rRDEqqLam5fyLfYXQxNFVcOsv0rOEDuzOx0czU="
   }
 }
 ```
@@ -752,7 +753,7 @@ Endpoint: https://open.audio/federation/actors/Greensky
   "followers": "https://open.audio/federation/actors/Greensky/followers",
   "following": "https://open.audio/federation/actors/Greensky/following",
   "manuallyApprovesFollowers": false,
-  "summary": "<p>Hola soy GreenSky y es un placer tenerte por ac\u00e1, en mis canales tanto dentro como fuera del fediverso te hablo de Educaci\u00f3n y los retos que atraviesa a d\u00eda de hoy, te invito a escuchar este podcast y compartir este espacio.</p>",
+  "summary": "<p>Hola soy GreenSky y es un placer tenerte por ac\u00e1, en mis canales tanto dentro como fuera del fediverso te hablo de Educaci\u00f3n y los retos que atraviesa a d\u00eda de hoy, te invito a escuchar este podcast.</p>",
   "url": [
     {
       "type": "Link",
@@ -762,7 +763,7 @@ Endpoint: https://open.audio/federation/actors/Greensky
   ],
   "icon": {
     "type": "Image",
-    "url": "https://s3.eu-central-2.wasabisys.com/open-audio/attachments/c3/7b/14/img_20221123_125817.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=69ST19MZXMKJ5ZP4NF6L%2F20230527%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Date=20230527T021537Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=39b0a439c8957cce0ebae2fa10f6ce4e8d5ae9e41957bb7e043a725cf2b68a09",
+    "url": "https://s3.eu-central-2.wasabisys.com/open-audio/attachments/c3/7b/14/img_20221123_125817.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=69ST19MZXMKJ5ZP4NF6L%2F20230601%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Date=20230601T205245Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=97efa0eac8382a6d4088005697bc3e32fe5c48bdd4a8c50611dfd292cb76ec98",
     "mediaType": "image/jpeg"
   },
   "@context": [

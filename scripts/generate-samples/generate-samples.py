@@ -1,6 +1,10 @@
 #!/usr/bin/python
 #
-# Generate a documentation page with samples of webfinger files from various Fediverse servers/apps
+# Generate documentation pages with samples of webfinger and actor files
+# from various Fediverse servers/apps
+#
+# (C) 2023 Johannes Ernst, BSD 3-clause license
+#
 
 import argparse
 import json
@@ -22,7 +26,8 @@ title: {title}
 description: {description}
 ---
 
-As of { strftime("%Y-%m-%d %H:%M:%S UTC", gmtime()) }.
+As of { strftime("%Y-%m-%d %H:%M:%S UTC", gmtime()) }. To regenerate, run `make`
+in directory `scripts`.
 
 """ )
 

@@ -3,7 +3,8 @@ title: Webfinger sample files
 description: A selection of Webfinger files as produced by common Fediverse apps
 ---
 
-As of 2023-05-27 02:15:16 UTC.
+As of 2023-06-01 20:52:22 UTC. To regenerate, run `make`
+in directory `scripts`.
 
 ## App: Mastodon, handle ``@gargron@mastodon.social``
 

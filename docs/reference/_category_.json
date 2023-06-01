@@ -1,8 +1,8 @@
 {
-    "label": "Samples",
+    "label": "Reference",
     "position": 3,
     "link": {
         "type": "generated-index",
-        "description": "Sample files."
+        "description": "Reference files."
     }
 }
