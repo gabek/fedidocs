@@ -6,7 +6,7 @@ description: A selection of Webfinger files as produced by common Fediverse apps
 As of 2023-06-01 20:52:22 UTC. To regenerate, run `make`
 in directory `scripts`.
 
-## App: Mastodon, handle ``@gargron@mastodon.social``
+## App: Mastodon, handle `@gargron@mastodon.social`
 
 Endpoint: https://mastodon.social/.well-known/webfinger?resource=acct%3agargron@mastodon.social
 
@@ -36,7 +36,7 @@ Endpoint: https://mastodon.social/.well-known/webfinger?resource=acct%3agargron@
 }
 ```
 
-## App: PeerTube, handle ``@peertube@framapiaf.org``
+## App: PeerTube, handle `@peertube@framapiaf.org`
 
 Endpoint: https://framapiaf.org/.well-known/webfinger?resource=acct%3apeertube@framapiaf.org
 
@@ -66,7 +66,7 @@ Endpoint: https://framapiaf.org/.well-known/webfinger?resource=acct%3apeertube@f
 }
 ```
 
-## App: Calckey, handle ``@kainoa@calckey.social``
+## App: Calckey, handle `@kainoa@calckey.social`
 
 Endpoint: https://calckey.social/.well-known/webfinger?resource=acct%3akainoa@calckey.social
 
@@ -92,7 +92,7 @@ Endpoint: https://calckey.social/.well-known/webfinger?resource=acct%3akainoa@ca
 }
 ```
 
-## App: Misskey, handle ``https://misskey.io/@syuilo``
+## App: Misskey, handle `https://misskey.io/@syuilo`
 
 Endpoint: https://misskey.io/.well-known/webfinger?resource=https://misskey.io/@syuilo
 
@@ -118,7 +118,7 @@ Endpoint: https://misskey.io/.well-known/webfinger?resource=https://misskey.io/@
 }
 ```
 
-## App: Streams, handle ``@mike@macgirvin.com``
+## App: Streams, handle `@mike@macgirvin.com`
 
 Endpoint: https://macgirvin.com/.well-known/webfinger?resource=acct%3amike@macgirvin.com
 
@@ -183,7 +183,7 @@ Endpoint: https://macgirvin.com/.well-known/webfinger?resource=acct%3amike@macgi
 }
 ```
 
-## App: Hubzilla, handle ``@contribute@hubzilla.org``
+## App: Hubzilla, handle `@contribute@hubzilla.org`
 
 Endpoint: https://hubzilla.org/.well-known/webfinger?resource=acct%3acontribute@hubzilla.org
 
@@ -247,7 +247,7 @@ Endpoint: https://hubzilla.org/.well-known/webfinger?resource=acct%3acontribute@
 }
 ```
 
-## App: GNU Social, handle ``@administrator@gnusocial.net``
+## App: GNU Social, handle `@administrator@gnusocial.net`
 
 Endpoint: https://gnusocial.net/.well-known/webfinger?resource=acct%3aadministrator@gnusocial.net
 
@@ -332,7 +332,7 @@ Endpoint: https://gnusocial.net/.well-known/webfinger?resource=acct%3aadministra
 }
 ```
 
-## App: Pleroma, handle ``@karolat@stereophonic.space``
+## App: Pleroma, handle `@karolat@stereophonic.space`
 
 Endpoint: https://stereophonic.space/.well-known/webfinger?resource=acct%3akarolat@stereophonic.space
 
@@ -366,7 +366,7 @@ Endpoint: https://stereophonic.space/.well-known/webfinger?resource=acct%3akarol
 }
 ```
 
-## App: Pixelfed, handle ``@dansup@pixelfed.social``
+## App: Pixelfed, handle `@dansup@pixelfed.social`
 
 Endpoint: https://pixelfed.social/.well-known/webfinger?resource=acct%3adansup@pixelfed.social
 
@@ -397,7 +397,7 @@ Endpoint: https://pixelfed.social/.well-known/webfinger?resource=acct%3adansup@p
 }
 ```
 
-## App: Friendica, handle ``@tobias@friendi.ca``
+## App: Friendica, handle `@tobias@friendi.ca`
 
 Endpoint: https://friendi.ca/.well-known/webfinger?resource=acct%3atobias@friendi.ca
 
@@ -428,7 +428,7 @@ Endpoint: https://friendi.ca/.well-known/webfinger?resource=acct%3atobias@friend
 }
 ```
 
-## App: Funkwhale, handle ``@Greensky@open.audio``
+## App: Funkwhale, handle `@Greensky@open.audio`
 
 Endpoint: https://open.audio/.well-known/webfinger?resource=acct%3aGreensky@open.audio
 
@@ -448,7 +448,7 @@ Endpoint: https://open.audio/.well-known/webfinger?resource=acct%3aGreensky@open
 }
 ```
 
-## App: WriteFreely, handle ``@matt@write.as``
+## App: WriteFreely, handle `@matt@write.as`
 
 Endpoint: https://write.as/.well-known/webfinger?resource=acct%3amatt@write.as
 
@@ -474,7 +474,7 @@ Endpoint: https://write.as/.well-known/webfinger?resource=acct%3amatt@write.as
 }
 ```
 
-## App: Plume, handle ``@actapopuli@fediverse.blog``
+## App: Plume, handle `@actapopuli@fediverse.blog`
 
 Endpoint: https://fediverse.blog/.well-known/webfinger?resource=acct%3aactapopuli@fediverse.blog
 
@@ -508,7 +508,7 @@ Endpoint: https://fediverse.blog/.well-known/webfinger?resource=acct%3aactapopul
 }
 ```
 
-## App: Mobilizon, handle ``@framasoft@mobilizon.fr``
+## App: Mobilizon, handle `@framasoft@mobilizon.fr`
 
 Endpoint: https://mobilizon.fr/.well-known/webfinger?resource=acct%3aframasoft@mobilizon.fr
 
@@ -542,7 +542,7 @@ Endpoint: https://mobilizon.fr/.well-known/webfinger?resource=acct%3aframasoft@m
 }
 ```
 
-## App: Lemmy, handle ``@lemmy_support@lemmy.ml``
+## App: Lemmy, handle `@lemmy_support@lemmy.ml`
 
 Endpoint: https://lemmy.ml/.well-known/webfinger?resource=acct%3alemmy_support@lemmy.ml
 
@@ -568,7 +568,7 @@ Endpoint: https://lemmy.ml/.well-known/webfinger?resource=acct%3alemmy_support@l
 }
 ```
 
-## App: Micro.blog, handle ``@manton@manton.org``
+## App: Micro.blog, handle `@manton@manton.org`
 
 Endpoint: https://manton.org/.well-known/webfinger?resource=acct%3amanton@manton.org
 
@@ -589,4 +589,3 @@ Endpoint: https://manton.org/.well-known/webfinger?resource=acct%3amanton@manton
   ]
 }
 ```
-

@@ -6,7 +6,7 @@ description: A selection of Actor files as produced by common Fediverse apps
 As of 2023-06-01 20:52:33 UTC. To regenerate, run `make`
 in directory `scripts`.
 
-## App: Mastodon, handle ``@gargron@mastodon.social``
+## App: Mastodon, handle `@gargron@mastodon.social`
 
 Endpoint: https://mastodon.social/users/Gargron
 
@@ -124,7 +124,7 @@ Endpoint: https://mastodon.social/users/Gargron
 }
 ```
 
-## App: PeerTube, handle ``@peertube@framapiaf.org``
+## App: PeerTube, handle `@peertube@framapiaf.org`
 
 Endpoint: https://framapiaf.org/users/peertube
 
@@ -228,7 +228,7 @@ Endpoint: https://framapiaf.org/users/peertube
 }
 ```
 
-## App: Calckey, handle ``@kainoa@calckey.social``
+## App: Calckey, handle `@kainoa@calckey.social`
 
 Endpoint: https://calckey.social/users/9aprgabaeb
 
@@ -322,7 +322,7 @@ Endpoint: https://calckey.social/users/9aprgabaeb
 }
 ```
 
-## App: Misskey, handle ``https://misskey.io/@syuilo``
+## App: Misskey, handle `https://misskey.io/@syuilo`
 
 Endpoint: https://misskey.io/users/7rkrarq81i
 
@@ -410,7 +410,7 @@ Endpoint: https://misskey.io/users/7rkrarq81i
 }
 ```
 
-## App: Streams, handle ``@mike@macgirvin.com``
+## App: Streams, handle `@mike@macgirvin.com`
 
 Endpoint: https://macgirvin.com/channel/mike
 
@@ -531,10 +531,11 @@ Endpoint: https://macgirvin.com/channel/mike
 }
 ```
 
-## App: Hubzilla, handle ``@contribute@hubzilla.org``
+## App: Hubzilla, handle `@contribute@hubzilla.org`
+
 Actor JSON not found.
 
-## App: GNU Social, handle ``@administrator@gnusocial.net``
+## App: GNU Social, handle `@administrator@gnusocial.net`
 
 Endpoint: https://gnusocial.net/index.php/user/1
 
@@ -579,7 +580,7 @@ Endpoint: https://gnusocial.net/index.php/user/1
 }
 ```
 
-## App: Pleroma, handle ``@karolat@stereophonic.space``
+## App: Pleroma, handle `@karolat@stereophonic.space`
 
 Endpoint: https://stereophonic.space/users/karolat
 
@@ -634,7 +635,7 @@ Endpoint: https://stereophonic.space/users/karolat
 }
 ```
 
-## App: Pixelfed, handle ``@dansup@pixelfed.social``
+## App: Pixelfed, handle `@dansup@pixelfed.social`
 
 Endpoint: https://pixelfed.social/users/dansup
 
@@ -674,7 +675,7 @@ Endpoint: https://pixelfed.social/users/dansup
 }
 ```
 
-## App: Friendica, handle ``@tobias@friendi.ca``
+## App: Friendica, handle `@tobias@friendi.ca`
 
 Endpoint: https://friendi.ca/author/tobias/
 
@@ -738,7 +739,7 @@ Endpoint: https://friendi.ca/author/tobias/
 }
 ```
 
-## App: Funkwhale, handle ``@Greensky@open.audio``
+## App: Funkwhale, handle `@Greensky@open.audio`
 
 Endpoint: https://open.audio/federation/actors/Greensky
 
@@ -786,7 +787,7 @@ Endpoint: https://open.audio/federation/actors/Greensky
 }
 ```
 
-## App: WriteFreely, handle ``@matt@write.as``
+## App: WriteFreely, handle `@matt@write.as`
 
 Endpoint: https://write.as/api/collections/matt
 
@@ -820,7 +821,7 @@ Endpoint: https://write.as/api/collections/matt
 }
 ```
 
-## App: Plume, handle ``@actapopuli@fediverse.blog``
+## App: Plume, handle `@actapopuli@fediverse.blog`
 
 Endpoint: https://fediverse.blog/@/actapopuli/
 
@@ -871,7 +872,7 @@ Endpoint: https://fediverse.blog/@/actapopuli/
 }
 ```
 
-## App: Mobilizon, handle ``@framasoft@mobilizon.fr``
+## App: Mobilizon, handle `@framasoft@mobilizon.fr`
 
 Endpoint: https://mobilizon.fr/@framasoft
 
@@ -1046,7 +1047,7 @@ Endpoint: https://mobilizon.fr/@framasoft
 }
 ```
 
-## App: Lemmy, handle ``@lemmy_support@lemmy.ml``
+## App: Lemmy, handle `@lemmy_support@lemmy.ml`
 
 Endpoint: https://lemmy.ml/c/lemmy_support
 
@@ -1108,7 +1109,7 @@ Endpoint: https://lemmy.ml/c/lemmy_support
 }
 ```
 
-## App: Micro.blog, handle ``@manton@manton.org``
+## App: Micro.blog, handle `@manton@manton.org`
 
 Endpoint: https://manton.org/activitypub/manton
 
@@ -1153,4 +1154,3 @@ Endpoint: https://manton.org/activitypub/manton
   ]
 }
 ```
-
