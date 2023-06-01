@@ -29,6 +29,14 @@ description: Who is involved
       (Work in progress)</td>
   <td>Project lead</td>
  </tr>
+ <tr>
+  <th><a href="https://notiz.blog/">Matthias Pfefferle</a></th>
+  <td><a href="https://mastodon.social/@pfefferle">@pfefferle@mastodon.social</a></td>
+  <td>@pfefferle:matrix.org</td>
+  <td><a href="https://wordpress.org/plugins/activitypub/">WordPress(.com)</a>: we're building an ActivityPub-plugin for WordPress
+      and a hosted version on WordPress.com!</td>
+  <td>Project lead</td>
+ </tr>
 </table>
 
 If you consider yourself an active member of the Fediverse Developers Network, please create a
