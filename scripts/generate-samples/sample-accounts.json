@@ -1,0 +1,52 @@
+{
+    "Mastodon" : {
+        "@gargron@mastodon.social" : {}
+    },
+    "PeerTube" : {
+        "@peertube@framapiaf.org" : {}
+    },
+    "Calckey" : {
+        "@kainoa@calckey.social" : {}
+    },
+    "Misskey" : {
+        "https://misskey.io/@syuilo" : {}
+    },
+    "Streams" : {
+        "@mike@macgirvin.com" : {}
+    },
+    "Hubzilla" : {
+        "@contribute@hubzilla.org" : {}
+    },
+    "GNU Social" : {
+        "@administrator@gnusocial.net" : {}
+    },
+    "Pleroma" : {
+        "@karolat@stereophonic.space" :  {}
+    },
+    "Pixelfed" : {
+        "@dansup@pixelfed.social" : {}
+    },
+    "Friendica" : {
+        "@tobias@friendi.ca" : {}
+    },
+    "Funkwhale" : {
+        "@Greensky@open.audio" : {}
+    },
+    "WriteFreely" : {
+        "@matt@write.as" : {}
+    },
+    "Plume" : {
+        "@actapopuli@fediverse.blog" : {}
+    },
+    "Mobilizon" : {
+        "@framasoft@mobilizon.fr" : {}
+    },
+    "Lemmy" : {
+        "@lemmy_support@lemmy.ml" : {}
+    },
+    "Micro.blog" : {
+        "@manton@manton.org" : {}
+    }
+
+}
+
