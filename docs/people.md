@@ -37,6 +37,13 @@ description: Who is involved
       and a hosted version on WordPress.com!</td>
   <td>Project lead</td>
  </tr>
+ <tr>
+  <th><a href="https://snarfed.org/">Ryan Barrett</a></th>
+  <td><a href="https://fed.brid.gy/user/snarfed.org">@snarfed.org@snarfed.org</a></td>
+  <td>@snarfed:matrix.org</td>
+  <td><a href="https://fed.brid.gy/">Bridgy Fed</a>: bridges web sites, the fediverse, and soon more!</td>
+  <td>Project lead</td>
+ </tr>
 </table>
 
 If you consider yourself an active member of the Fediverse Developers Network, please create a
