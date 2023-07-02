@@ -5,9 +5,6 @@ tags:
   - Audio
   - Podcasts
 ---
-
-Funkwhale is a free, federated audio platform for listening to and publishing music and podcasts.
-
 ## What functionality does Funkwhale provide on the Fediverse?
 
 - Allows users to create music or podcast channels that other Fediverse users can follow.
