@@ -81,6 +81,11 @@ const config = {
             position: "left",
           },
           {
+            to: "/category/reference",
+            label: "Reference",
+            position: "left",
+          },
+          {
             href: "https://github.com/gabek/fedidocs",
             label: "Update these docs",
             position: "right",
