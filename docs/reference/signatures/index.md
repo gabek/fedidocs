@@ -204,6 +204,18 @@ description: Tracking adoption of current drafts of HTTP Signatures across the F
     			<td class="old">No</td>
     			<td class="old">No</td>
     		</tr>
+            <tr>
+    			<td><a href="https://codeberg.org/streams/streams">The streams repository</a></td>
+    			<td>None</td>
+    			<td />
+    			<td class="yes">Yes</td>
+    			<td class="yes">Yes</td>
+    			<td class="no">No</td>
+    			<td />
+    			<td class="yes">hs2019/rsa-sha256<sup>8</sup></td>
+    			<td class="old">No</td>
+    			<td class="old">No</td>
+    		</tr>
     	</table>
     	<ul>
     		<li><sup>1</sup> This implementation assumes all signatures use SHA256</li>
@@ -227,6 +239,9 @@ description: Tracking adoption of current drafts of HTTP Signatures across the F
     		</li>
     		<li>
     			<sup>7</sup> This implementation assumes "hs2019" is equivalent to "rsa-sha512"
+    		</li>
+    		<li>
+    			<sup>8</sup> Configurable. Default is "rsa-sha256" for widest compatibility. "hs2019" algorithm is also configurable. Both "rsa-sha256" and "rsa-sha512" configurations are currently supported. 
     		</li>
     	</ul>
 
