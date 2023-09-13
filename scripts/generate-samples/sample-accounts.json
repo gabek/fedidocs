@@ -46,7 +46,9 @@
     },
     "Micro.blog" : {
         "@manton@manton.org" : {}
+    },
+    "WordPress" : {
+        "@pfefferle@notiz.blog" : {}
     }
-
 }
 
