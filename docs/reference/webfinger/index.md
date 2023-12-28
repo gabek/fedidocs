@@ -178,6 +178,12 @@ Endpoint: https://macgirvin.com/.well-known/webfinger?resource=acct%3amike@macgi
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
       "template": "https://macgirvin.com/follow?url={uri}"
+    },
+    {
+      "rel": "http://a9.com/-/spec/opensearch/1.1/",
+      "type": "application/opensearchdescription+xml",
+      "href": "https://macgirvin.com/opensearch/mike",
+      "title": "mike@macgirvin.com"
     }
   ]
 }
