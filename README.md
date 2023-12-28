@@ -1,3 +1,9 @@
+## NOTE: fedidevs.org HAS MOVED
+
+Repo is now at https://github.com/fediverse-devnet/fedidevs.org
+
+Please submit your PRs over there.
+
 ## What is it?
 
 This project aims to be a one stop shop for people looking to build software that is compatible with the greater Fediverse. By providing example payloads and notes about each project it can hopefully make it easier to build Fediverse-compatible software.
